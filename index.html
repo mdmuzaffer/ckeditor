@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>CKEDITOR 4 Tutorial</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+<body>
+
+<h1>CKEDITOR 4 Example</h1>
+	<div style="width:70%">
+	<textarea id="editor1" placeholder="Content"></textarea>
+	</div>
+<script>
+$(function(){
+	//alert('hello llll');
+	if($('textarea#editor1').length){
+		CKEDITOR.replace('editor1');
+	}
+	
+});
+</script>
+</body>
+</html>
